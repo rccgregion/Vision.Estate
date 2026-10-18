@@ -1,0 +1,6 @@
+{
+  "name": "VISION.ESTATE — Luxury Real Estate of the Future",
+  "description": "Futuristic luxury real estate agency offering an exclusive range of modern architectural residences and innovative living solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
