@@ -1,3 +1,11 @@
+import heroFuturisticMansion from '../assets/images/hero_futuristic_mansion_1791748995776.jpg';
+import interiorLuxuryLiving from '../assets/images/interior_luxury_living_1791749027793.jpg';
+import villaLeftWing from '../assets/images/villa_left_wing_1791749007475.jpg';
+import futuristicPodHouse from '../assets/images/futuristic_pod_house_1791749018366.jpg';
+import coastalCurvedVilla from '../assets/images/coastal_curved_villa_1791749843319.jpg';
+import alpineGlassPavilion from '../assets/images/alpine_glass_pavilion_1791749854190.jpg';
+import monolithicDesertCompound from '../assets/images/monolithic_desert_compound_1791749863233.jpg';
+
 export interface Property {
   id: string;
   title: string;
@@ -27,11 +35,11 @@ export const PROPERTIES: Property[] = [
     baths: 6,
     sqft: '9,850 sq ft',
     year: 2026,
-    image: '/src/assets/images/hero_futuristic_mansion_1791748995776.jpg',
+    image: heroFuturisticMansion,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
-      '/src/assets/images/villa_left_wing_1791749007475.jpg',
-      '/src/assets/images/futuristic_pod_house_1791749018366.jpg',
+      interiorLuxuryLiving,
+      villaLeftWing,
+      futuristicPodHouse,
     ],
     description: 'An architectural custom estate featuring sculpted board-formed concrete and structural floor-to-ceiling thermal glazing. Spanning over two levels with a double-height helical staircase, infinity reflection pool, private primary suite wing, and deeded unobstructed panoramic ridge views.',
     features: [
@@ -54,10 +62,10 @@ export const PROPERTIES: Property[] = [
     baths: 5,
     sqft: '7,400 sq ft',
     year: 2026,
-    image: '/src/assets/images/villa_left_wing_1791749007475.jpg',
+    image: villaLeftWing,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
-      '/src/assets/images/hero_futuristic_mansion_1791748995776.jpg',
+      interiorLuxuryLiving,
+      heroFuturisticMansion,
     ],
     description: 'Distinctive sculpted concrete residence offering seamless indoor-outdoor coastal living. Anchored by a bold cantilevered structural canopy, custom frameless glass walls, and an interior courtyard garden framed in hand-honed granite.',
     features: [
@@ -79,9 +87,9 @@ export const PROPERTIES: Property[] = [
     baths: 3,
     sqft: '4,600 sq ft',
     year: 2026,
-    image: '/src/assets/images/futuristic_pod_house_1791749018366.jpg',
+    image: futuristicPodHouse,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
+      interiorLuxuryLiving,
     ],
     description: 'A monolithic private estate set within a 10-acre private parcel. Highlights include an iconic horizontal panoramic aperture, illuminated terrace stone steps, bespoke bouclé salon furnishings, and dark-sky designated stargazing.',
     features: [
@@ -103,9 +111,9 @@ export const PROPERTIES: Property[] = [
     baths: 7,
     sqft: '11,200 sq ft',
     year: 2026,
-    image: '/src/assets/images/coastal_curved_villa_1791749843319.jpg',
+    image: coastalCurvedVilla,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
+      interiorLuxuryLiving,
     ],
     description: 'A masterwork of coastal engineering anchored directly into granite cliffs. Boasting multi-tiered cantilevered sun decks, a curved heated saltwater infinity pool, double-height oceanfront living room, and private funicular ocean access.',
     features: [
@@ -127,9 +135,9 @@ export const PROPERTIES: Property[] = [
     baths: 6,
     sqft: '8,900 sq ft',
     year: 2027,
-    image: '/src/assets/images/alpine_glass_pavilion_1791749854190.jpg',
+    image: alpineGlassPavilion,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
+      interiorLuxuryLiving,
     ],
     description: 'A ski-in, ski-out modern mountain estate designed with heavy thermal insulation and heated curved glazing to withstand alpine winters. Features panoramic mountain views, a floating suspended fireplace, and private wellness spa.',
     features: [
@@ -151,9 +159,9 @@ export const PROPERTIES: Property[] = [
     baths: 8,
     sqft: '13,500 sq ft',
     year: 2026,
-    image: '/src/assets/images/monolithic_desert_compound_1791749863233.jpg',
+    image: monolithicDesertCompound,
     additionalImages: [
-      '/src/assets/images/interior_luxury_living_1791749027793.jpg',
+      interiorLuxuryLiving,
     ],
     description: 'An expansive gated residential compound centered around a 50-foot circular pool lagoon. Features curved continuous perimeter walls, separate detached guest residences, and native specimen desert landscaping.',
     features: [

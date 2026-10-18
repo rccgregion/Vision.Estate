@@ -29,7 +29,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="relative w-full rounded-[24px] overflow-hidden group cursor-pointer aspect-4/3 sm:aspect-16/11 lg:aspect-4/3 bg-neutral-900"
                onClick={() => onSelectProperty(leftWingProperty)}>
             <img
-              src="/src/assets/images/villa_left_wing_1791749007475.jpg"
+              src={leftWingProperty.image}
               alt="Elite Real Estate Architecture"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -95,7 +95,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="w-full lg:w-[47%] relative rounded-[32px] overflow-hidden min-h-[440px] sm:min-h-[500px] lg:min-h-[580px] shadow-sm flex flex-col justify-between group">
           {/* Main Background Image */}
           <img
-            src="/src/assets/images/hero_futuristic_mansion_1791748995776.jpg"
+            src={centerProperty.image}
             alt="Futuristic Organic Luxury Villa"
             referrerPolicy="no-referrer"
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-102"
@@ -180,7 +180,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="relative w-full rounded-[26px] overflow-hidden group cursor-pointer aspect-4/3 sm:aspect-16/10 lg:aspect-4/3 bg-neutral-800 shadow-xs border border-white/10"
                onClick={() => onSelectProperty(podProperty)}>
             <img
-              src="/src/assets/images/futuristic_pod_house_1791749018366.jpg"
+              src={podProperty.image}
               alt="Futuristic Desert Pod Villa"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
